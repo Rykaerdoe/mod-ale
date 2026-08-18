@@ -880,6 +880,7 @@ ALERegister<Creature> CreatureMethods[] =
     { "GetCreatureFamily", &LuaCreature::GetCreatureFamily },
     { "GetReactState", &LuaCreature::GetReactState },
     { "GetLoot", &LuaCreature::GetLoot },
+    { "MergeLootFrom", &LuaCreature::MergeLootFrom },
 
     // Setters
     { "SetRegeneratingHealth", &LuaCreature::SetRegeneratingHealth },
